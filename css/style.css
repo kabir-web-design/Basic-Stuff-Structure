@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.stuff-sec {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.staff-fea h1 {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.staff-fea p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.team-content {
+  text-align: center;
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20px;
+  transition: all 0.5s ease;
+}
+
+.team-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-box:hover .team-content {
+  bottom: 0;
+}
